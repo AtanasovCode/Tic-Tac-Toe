@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC TAC TOE Project</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="game-script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet"> 
+
+    
+    
+</head>
+
+<body>
+    <div class="game-title">
+        <h1><span class="color1">TIC</span>-<span class="color2">TAC</span>-<span class="color3">TOE</span></h1>
+    </div>
+    <div class="game-container">
+        <div class="game-stats-container">
+            <div class="game-players">
+                <div id="p1" class="player turn">
+                    <h3>Player 1</h3>
+                </div>
+                <div id="p2" class="player">
+                    <h3>Player 2</h3>
+                </div>
+            </div>
+            <div class="winner-restart-container">
+                <div class="winner-container">
+                    <h2>Winner: <span class="winner"></span></h2>
+                </div>
+                <div class="restart-container">
+                    <input type="button" class="button-reset" value="Reset" />
+                </div>
+            </div>
+        </div>
+        <div class="game-grid">
+            <div class="item" id="grid-one"></div>
+            <div class="item" id="grid-two"></div>
+            <div class="item" id="grid-three"></div>
+            <div class="item" id="grid-four"></div>
+            <div class="item" id="grid-five"></div>
+            <div class="item" id="grid-six"></div>
+            <div class="item" id="grid-seven"></div>
+            <div class="item" id="grid-eight"></div>
+            <div class="item" id="grid-nine"></div>
+        </div>
+    </div>
+</body>
+
+</html>
